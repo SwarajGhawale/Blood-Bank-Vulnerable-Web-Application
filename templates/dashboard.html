@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registered Donors List</title>
+    </head>
+<body>
+  {% block content %}
+  <h1>Registered Donors</h1>
+  <table align="right">
+    <body Vlink="Blue">
+    <tr>
+      <td><LI><font size=4><A href="/index">Home</A></LI></td></font>
+      <td><LI><font size=4><A href="/dashboard">Dashboard</A></LI></td></font>
+      <td><LI><font size=4><A href="/register">Registration</A></LI></td></font>
+      <td><LI><font size=4><A href="/search">Search</A></LI></td></font>
+      <td><LI><font size=4><A href="/delete">Delete</A></LI></td></font>
+      <td><LI><font size=4><A href="/logout">Log Out</A></LI></td></font>
+    </tr>
+    </table>
+  <table border ="2">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Blood Group</th>
+        <th>Gender</th>
+        <th>Quantity</th>
+        <th>Weight</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% autoescape false%}
+      {% for donors in donors %}
+        <tr>
+          <td>{{ donors[0] }}</td><br>
+          <td>{{ donors[1] }}</td>
+          <td>{{ donors[2] }}</td>
+          <td>{{ donors[3] }}</td>
+          <td>{{ donors[4] }}</td>
+          <td>{{ donors[5] }}</td>
+          <td>{{ donors[6] }}</td>
+          <td>{{ donors[7] }}</td>
+        </tr>
+      {% endfor %}
+      {% endautoescape %}
+    </tbody>
+  </table>
+{% endblock %}
+</body>
+</html>
