@@ -4,9 +4,19 @@ Most blood donation platforms connect people to blood banks, but this one connec
 
 ## UI
 
-![alt text](https://github.com/MankaranSingh/Blood-Donation-Platform/blob/master/SS1.png)
+![alt text](https://github.com/SwarajGhawale/Blood-Bank-Vulnerable-Web-Application/blob/main/Login%20Page.png)
 
-![alt text](https://github.com/MankaranSingh/Blood-Donation-Platform/blob/master/SS2.png)
+![alt text](https://github.com/SwarajGhawale/Blood-Bank-Vulnerable-Web-Application/blob/main/Index%20Page.png)
+
+![alt text](https://github.com/SwarajGhawale/Blood-Bank-Vulnerable-Web-Application/blob/main/dashboard%201.png)
+
+![alt text](https://github.com/SwarajGhawale/Blood-Bank-Vulnerable-Web-Application/blob/main/registration.png)
+
+![alt text](https://github.com/SwarajGhawale/Blood-Bank-Vulnerable-Web-Application/blob/main/dashboard%202.png)
+
+![alt text](https://github.com/SwarajGhawale/Blood-Bank-Vulnerable-Web-Application/blob/main/search.png)
+
+![alt text](https://github.com/SwarajGhawale/Blood-Bank-Vulnerable-Web-Application/blob/main/delete.png)
 
 ## Donors Page who are currently active and donating.
 
